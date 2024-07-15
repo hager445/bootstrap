@@ -1,0 +1,146 @@
+*{
+  padding: 0%;
+  margin: 0;
+}
+.main{
+    background-image: url(bg-masthead.jpg);
+   background-repeat: no-repeat ;
+    background-attachment: scroll;
+    background-size: cover;
+    min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+    
+}
+.header__container{
+    padding: 0 300px;
+}
+.h1{
+font-size: 3em;
+}
+.header__container p{
+   font-size:1.2em ; 
+   padding: 0 50px;
+}
+
+.navbar{
+ padding: 0 110px;
+
+}
+
+
+
+
+@media (min-width: 576px) { 
+  
+        .needs-validation{
+            width: 90%;
+        }
+        .last__form--p{
+            width: 80%;
+        }
+}
+
+
+@media (min-width: 768px) {
+   
+        .needs-validation{
+            width: 90%;
+        }
+        .last__form--p{
+            width: 70%;
+        }
+ }
+
+
+@media (min-width: 992px) { 
+    
+        .needs-validation{
+            width: 40%;
+        }
+        .last__form--p{
+            width: 35%;
+        }
+}
+
+
+
+
+
+
+.btn{
+  background-color: #f4623a;
+  font-size: 13px;
+  width: 35%;
+
+}
+.btn:hover{
+  background-color: #b83f1e;
+}
+
+.orange_main{
+  background-color: rgba(233, 70, 30, 0.9);
+  padding: 110px 0;
+}
+.heart{
+    margin-top: 100px;
+    margin-bottom: 110px;
+  }
+
+.zft{
+    padding: 0;
+    margin: 0;
+   
+}
+.card-title{
+  font-size: 26px;
+}
+.fa-gem,.fa-laptop,.fa-globe,.fa-heart{
+  color: #ec4111;
+}
+
+.category__container{
+    background-color: rgba(233, 70, 30, 0.8);
+    width: 100%;
+    height: 100%;
+    padding-top: 90px;
+ opacity: 0;
+    transition: all 0.5s;
+}
+.image__flex:hover .category__container{
+   opacity: 1;
+}
+.category__container .article{
+margin-bottom: -7px;
+color: rgba(177, 175, 175, 0.9);
+font-size: 14px;
+}
+.free-download{
+    padding: 150px 0;
+    margin:0;
+    }
+
+.last__form{
+  margin-top: 150px;
+}
+.last__form--p{
+  padding: 30px 0;
+  margin: 0 auto;
+  font-size: 17px;
+}
+form{
+ 
+  margin: 0 auto;
+}
+.form_button{
+  padding: 18px 0;
+  opacity: 0.7;
+}
+.number{
+  margin-bottom: 130px;
+}
+.last_p{
+  background-color: #f8f9fa;
+  padding: 50px 0;
+}
